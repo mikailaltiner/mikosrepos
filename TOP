@@ -1,0 +1,5 @@
+SELECT TOP(5)
+contact_id, last_name, first_name
+FROM contacts
+WHERE last_name = 'Mikail'
+ORDER BY contact_id;
